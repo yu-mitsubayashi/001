@@ -1,4 +1,23 @@
-﻿var selectedComp_count = new Array();
+﻿/*
+------------------------------------------------------------------------------
+workarea_reset.jsx
+Scripted by Yu Mitsubayashi.
+v 1.0
+Created On: 17/10/19
+Updated On: 17/10/19
+tested using AfterEffects CS55
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Description:
+
+change compotision workArea
+-------------------------------------------------------------------------------
+Revision History:
+v1.00  New Create
+-------------------------------------------------------------------------------
+*/
+
+var selectedComp_count = new Array();
 var selectedComp = new Array();
 
 for (var i=1; i<=app.project.items.length; i++)//count 
